@@ -41,8 +41,10 @@ header {
   margin-right: 100px;
   padding-bottom: 40px;
 }
-.navbar .menu hr {
-  color: red;
+
+.navbar .menu:hover {
+  color: orangered;
+  transition: ease-in-out 0.2s;
 }
 
 .logo img {
